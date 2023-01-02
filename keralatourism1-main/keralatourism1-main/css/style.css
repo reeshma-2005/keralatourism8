@@ -1,0 +1,154 @@
+body{
+    line-height: 1.8;
+    color:blue;
+    font: size 15px;
+    background-color: aqua;
+
+}
+ 
+ .navbar-nav{
+   
+ }
+
+.destin{
+   margin: top 20px;;
+   border: 1px solid black;
+}
+
+
+ a{
+    font-weight: 700;
+
+ }
+
+ img{
+    width:100%;
+
+ }
+
+ .navbar .nav-link{
+    font-size:12px;
+    text-transform: uppercase;
+    letter-spacing: 3px
+    
+
+
+
+ }
+
+ .navbar{
+    border-bottom: 1px solid red;
+   /* background-color: aqua;*/
+    background-image: url(../images/Kerala-tourism.webp);
+    background-size: cover;
+   
+    
+}
+ .vdiv{
+   /* border: 2px solid red; */
+   z-index:100;
+   margin-left: 150px;
+ }
+.video-back{
+
+   /*position:fixed;*/
+   
+    min-width: 75%;
+    width:auto;
+    min-height:20%;
+    margin-left :50px;
+   
+   
+}
+ .navbar .nav-link .active{
+
+ }
+ .card >img{
+     width: 200px;
+     height: 200px;
+     margin-left: 25px;
+ }
+ .socialmedia >img{
+   width: auto;
+   height: 50px;
+ }
+#signUpModal{
+   background-color: blue;
+   background-image: url(../images/0_CW4MhAKfbe6dWxsl.jpg);
+
+}
+
+.modal-body{
+   text-transform: capitalize;
+   background-color: beige;
+   background-image: url(../images/kerala\ bg\ 1.webp);
+   text-decoration-color: black;
+}
+.mb-3{
+   text-transform: capitalize;
+}
+#keralamap{
+   height:20px;
+   width: 150px;
+   border:2px solid red;
+   margin-left:50px;
+   margin-top: 60px;
+}
+#carouselExampleInterval{
+
+     margin-left: 250px;
+     float:inline-end;
+     border:2px solid red
+     
+}
+
+#footerbar{
+   height: {FOOTER_HEIGHT};
+  
+  /*width: 100%;*/
+  text-align: center;
+  line-height: {FOOTER_HEIGHT};
+}  
+footer{
+   height: {FOOTER_HEIGHT};
+  background: aliceblue;
+  width: 100%;
+  text-align: center;
+  line-height: {FOOTER_HEIGHT};
+}
+.btn btn-primary{
+   text-align: center;
+}
+.submit1{
+   margin-left: 200px;
+}
+
+.carousel-inner{
+   background-color: blue;
+}
+#carouselExampleCaptions{
+   background-color: chartreuse;
+}
+
+#carouselExampleControls{
+   width: 75%;
+   margin-left: 175px;
+   margin-bottom: 150px;
+}
+.card1{
+   margin-left:50px;
+   margin-right:50px;
+   margin-bottom:40px;
+}
+.card2{
+   width:100px;
+   margin-left:20%;
+}
+
+.descwayanad{
+   margin-left:40px;
+   margin-left:40px;
+}
+#carouselExampleCaptions{
+   
+}

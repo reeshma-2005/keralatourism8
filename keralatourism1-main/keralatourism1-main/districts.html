@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DISTRICTS</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body data-bs-spy="scroll" data-bs-target=".navbar">
+        
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="https://rukminim1.flixcart.com/image/416/416/kwl0akw0/magnet/w/e/e/5-8-mr8000736-avi-5-8-original-imag982weemu5nqn.jpeg?q=70" alt="" width="75" height="100" class="d-inline-block align-text-top">
+                    
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" >
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signUpModal">
+                    Sign Up
+                  </button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Login
+                  </button>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./districts.html">Districts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+            <!--signup Modal1 -->
+            
+            <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  
+                  <div class="modal-body">
+                    SIGNUP
+                    <form class="signup1" id="signupform">
+                      <div class="mb-3">
+                        <label for="firstname1" class="form-label">Firstname</label>
+                        <input type="firstname" class="form-control" id="firstName" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"> </div>
+                      </div>
+                       
+                      <div class="mb-3">
+                        <label for="lastname1" class="form-label">Last Name</label>
+                        <input type="lastname" class="form-control" id="lastName" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <div id="submit1">
+                      <button type="submit" onclick="return" class="btn btn-primary">SIGNUP</button>
+                      </div>
+                    </form>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- end of signupmodel -->
+                          <!-- signinmodal-->
+            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  
+                  <div class="modal-body">
+                    LOGIN
+                    <form id="loginform">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="signinEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <!-- <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div> -->
+                      <button onclick="" type="submit" class="btn btn-primary">LOGIN</button>
+                    </form> 
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+<!-- signinmodal ends -->
+          </nav>
+    <!--navbar ends  -->
+
+<!-- kerala map -->
+ <div id="keralamap">
+     <img src="https://keralatravels.com/userfiles/1477384304_kerala-district-wise-map.jpg" alt="map" width="350" height="320">
+
+ </div>
+
+<!--   caraosal -->
+
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://sbnri.com/blog/wp-content/uploads/2022/02/Kerala_Main-730x410-1.jpg" class="d-block w-100" alt="athirapally" height="300" width="400">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://i.pinimg.com/originals/2e/0f/2d/2e0f2dc82f0515bf1a895dfa845ef8c6.png" class="d-block w-100" alt="placesmost" height="300" width="400">
+    </div>
+    <div class="carousel-item">
+      <img src="https://paramountclientweb.s3.ap-south-1.amazonaws.com/indian-holiday-trip/visualstories/Img_4463_202259050619_Kumarakom.jpg?time=1644064746" class="d-block w-100" alt="boat" height="300" width="400">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<b><br></b>
+<!-- end of carousal -->
+<!-- districs images -->
+ <div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">
+      <a href="./kasargode.html">
+        <img src="https://www.keralapackage.org/wp-content/uploads/2017/09/kasaragod-big-1.jpg" alt="kasar">
+    
+
+      </a>
+    </div>
+    <div class="col">
+      <a href="./kannur.html">
+        <img src="https://www.keralapackage.org/wp-content/uploads/2017/08/Kannur-Cannanore-big.jpg" alt=""kannur">
+
+        </a>
+    </div>
+
+      <div class="col">
+          <a href="./kozhikode.html">
+             <img src="https://www.keralapackage.org/wp-content/uploads/2017/08/Calicut-big.jpg" alt="kozhikode">
+
+          </a>
+      </div>
+
+    <div class="col">
+      <a href="./wayanad.html">
+         <img src="https://www.keralapackage.org/wp-content/uploads/2017/08/Wayanad-big.jpg" alt="wayanad">
+
+      </a>
+    </div>
+    
+  </div>
+</div> 
+<!-- second grid of districts -->
+<br><br>
+<div class="container">
+  <div class="row row-cols-4">
+    <div class="col">
+
+       <a href="./malappuram.html">
+          <img src="https://www.keralapackage.org/wp-content/uploads/2017/09/malappuram-big.jpg" alt="malappuram">
+
+       </a>
+    </div>
+    <div class="col">
+        <img src="https://www.keralapackage.org/wp-content/uploads/2017/09/palakkad-big.jpg" alt="palakkad">
+
+    </div>
+    <div class="col">
+         <img src="https://www.keralapackage.org/wp-content/uploads/2017/08/Thrissur-big.jpg" alt="thrissur">
+
+    </div>
+    <div class="col">
+       <img src="./images/ERN1.JPG" height="166">
+
+    </div>
+  </div>
+</div>
+<br><br>
+<!-- third grid of districts -->
+<div class="container">
+  <div class="row row-cols-4">
+    <div class="col">
+
+       
+          <img src="https://www.keralapackage.org/wp-content/uploads/2017/09/idukki-big.jpg" alt="idukki">
+
+       
+    </div>
+    <div class="col">
+        <img src="https://www.keralapackage.org/wp-content/uploads/2017/09/kottayam-image.jpg" alt="kottayam">
+
+    </div>
+    <div class="col">
+         <img src="https://www.keralapackage.org/wp-content/uploads/2017/08/alappuzha-alleppey.jpg" alt="Alappuzha">
+
+    </div>
+    <div class="col">
+       <img src="https://www.keralapackage.org/wp-content/uploads/2017/09/Pathanamthitta-big.jpg" alt="pathanamthitta">
+
+
+    </div>
+  </div>
+</div>
+<br><br>
+<!-- fourth grid of districts -->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="https://www.keralapackage.org/wp-content/uploads/2017/10/kollam-big.jpg" alt="kollam">
+
+    </div>
+    <div class="col">
+      <img src="https://www.keralapackage.org/wp-content/uploads/2017/10/thiruvananthapuram-big.jpg" al="trivandrum">
+
+    </div>
+  </div>
+  </div>
+    <!-- footer -->
+
+     <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50 mt-5"> 
+        <div class="container text-center" id="footerbar">
+          <small>Copyright &copy; 2022
+          <div class="socialmedia">
+              <img src="./images/facebook1.webp">
+              <img src="./images/whatsapp.png">
+              <img src="./images/twitter.jpg">
+              <img src="./images/insta.webp">
+           </div>  
+           <div>
+            <small>contact us : keralatourism@gmail.com,9875548787</small>
+         </div>  
+           </small>
+        </div>
+      <!-- </footer> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- <script src="./index.js"></script> -->
+</body>
+
+</html>
